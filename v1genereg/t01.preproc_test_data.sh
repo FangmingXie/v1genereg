@@ -1,7 +1,5 @@
 #!/bin/bash
 
-module load anaconda3
-conda activate chrombpnet_v101
 
 datadir="/u/home/f/f7xiesnm/project-zipursky/v1-bb/v1/data/v1_multiome_ai/chrombpnet_tutorial/data/downloads"
 outdir="/u/home/f/f7xiesnm/project-zipursky/v1-bb/v1/data/v1_multiome_ai/chrombpnet_tutorial/data"

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/u/home/f/f7xiesnm/.conda/envs/chrombpnet_v101/bin/chrombpnet", line 33, in <module>
-    sys.exit(load_entry_point('chrombpnet', 'console_scripts', 'chrombpnet')())
-  File "/u/project/zipursky/f7xiesnm/v1-bb/v1/chrombpnet/chrombpnet/CHROMBPNET.py", line 18, in main
-    os.makedirs(os.path.join(args.output_dir,"logs"), exist_ok=False)
-  File "/u/home/f/f7xiesnm/.conda/envs/chrombpnet_v101/lib/python3.8/os.py", line 223, in makedirs
-    mkdir(name, mode)
-FileExistsError: [Errno 17] File exists: '/u/home/f/f7xiesnm/project-zipursky/v1-bb/v1/data/v1_multiome_ai/chrombpnet_tutorial/chrombpnet_model/logs'
